@@ -1,5 +1,5 @@
 {
-  "name": "prettier-plugin-tailwindcss-extra",
+  "name": "prettier-plugin-tailwindcss-extra-plus",
   "version": "0.2.0",
   "description": "Adds Tailwind class sorting to a set of languages that are not yet supported by prettier",
   "license": "MIT",
@@ -8,12 +8,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/main.ts",
-    "test": "vitest run",
-    "test:watch": "vitest watch",
-    "lint": "tsc --noEmit",
-    "fmt": "prettier --write .",
-    "fmt:check": "prettier --check ."
+    "build": "npx tsup src/main.ts",
+    "test": "npx vitest run",
+    "test:watch": "npx vitest watch",
+    "lint": "npx tsc --noEmit",
+    "fmt": "npx prettier --write .",
+    "fmt:check": "npx prettier --check ."
   },
   "devDependencies": {
     "prettier": "^3.3.3",
